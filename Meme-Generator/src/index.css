@@ -1,0 +1,108 @@
+/* SECTIONS AND CONTAINERS */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+header {
+  align-items: center;
+
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+  padding: 20px;
+  height: 75px;
+}
+
+.left-side {
+  padding: 10px;
+  align-items: center;
+}
+
+header,
+.left-side {
+  display: flex;
+  height: 75px;
+}
+
+/* IMAGES, ICONS, AND LOGOS */
+
+#troll-face-pic {
+  margin-right: 6px;
+  height: 100%;
+}
+#meme-icon {
+  font-size: large;
+
+}
+
+
+/* TYPOGRAPHY */
+
+.title,
+.button,
+.text-box {
+  font-family: "Karla", sans-serif;
+}
+
+.title {
+  font-size: 20.75px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+.react-course {
+  margin-left: auto;
+  font-family: "inter", sans-serif;
+  font-size: 1rem;
+}
+
+.button {
+  display: block;
+  width: 83%;
+  margin: 15px auto 0 auto;
+  padding: 15px 15.5px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  /* box-shadow: 0 0 0px 2px rgb(210, 135, 235); */
+}
+
+.text-box {
+  width: 40%;
+  font-size: 1rem;
+  padding: 15px 10px;
+  border-radius: 5px;
+  margin: 36px 0 0 0;
+  border: none;
+  border: 2px solid #d5d4d8;
+  text-indent: 5px;
+}
+
+.text-box:focus, .text-box::selection, text-box:active, textarea{
+  box-shadow: none;
+  border: 2px solid rgb(44, 137, 219);
+}
+
+#box1 {
+  margin-right: 20px;
+}
+
+
+/* Header background */
+
+/* position: absolute;
+width: 550px;
+height: 65px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%); */
